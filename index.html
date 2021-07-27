@@ -4,26 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
   <link rel="stylesheet" href="./src/style/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <!-- Section main -->
   <section class="main">
     <div class="main__col1">
-      <h1 class="main__title">Get insights that help your business grow.</h1>
 
-      <p class="main__information">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <div class="main__information">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      </div>
 
       <ul class="main__stats">
         <li>10k+ <p class="main__stats--info">companies</p></li>
@@ -33,7 +30,7 @@
       
     </div>
     <div class="main__col2">
-      <img class="main__img" src="" alt="">
+      <img class="main__img" src="./src/images/image-header-desktop.jpg" alt="main-img">
     </div>
   </section>
   
